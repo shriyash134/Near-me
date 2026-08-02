@@ -1,4 +1,4 @@
-const Message = require("../message");
+const Message = require("../models/message");
 
 // Get all messages of a task
 exports.getMessages = async (req, res) => {
