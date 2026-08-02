@@ -1,0 +1,48 @@
+.edit-task-container {
+  width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+
+.edit-task-container h1{
+  text-align:center;
+  margin-bottom:25px;
+}
+
+.edit-task-container form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.edit-task-container input,
+.edit-task-container textarea,
+.edit-task-container select{
+  padding:12px;
+  border:1px solid #ddd;
+  border-radius:8px;
+  font-size:16px;
+}
+
+.edit-task-container textarea{
+  resize:none;
+  height:120px;
+}
+
+.edit-task-container button{
+  background:#2563eb;
+  color:white;
+  border:none;
+  padding:14px;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:16px;
+  font-weight:bold;
+}
+
+.edit-task-container button:hover{
+  background:#1d4ed8;
+}

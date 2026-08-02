@@ -1,0 +1,74 @@
+/* SelectRole.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.role-page {
+  min-height: 100vh;
+  background: #f4f7fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.role-container {
+  width: 90%;
+  max-width: 800px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.role-container h1 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.role-container p {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.role-cards {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.role-card {
+  width: 280px;
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 15px;
+  padding: 30px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  color: black;
+}
+
+.role-card:hover {
+  transform: translateY(-8px);
+  border-color: #2563eb;
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.2);
+}
+
+.role-icon {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.role-card h2 {
+  margin-bottom: 10px;
+}
+
+.role-card p {
+  color: #555;
+  font-size: 15px;
+}
