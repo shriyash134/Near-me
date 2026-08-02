@@ -1,4 +1,4 @@
-const Task = require("../models/task");
+const Task = require("../models/Task");
 const {getIO} = require("../socket");
 
 const getDistance = require("../utils/distance");
